@@ -7,12 +7,15 @@ hands of these cruel webdesigners anymore!
 
 #Steps
 
-1. Clone Repo to machine
+1. Go to releases, download .zip, and extract
 2. Right-Click Whitelister.lnk, select Properties
 3. Make sure that it points to the directory you're going to keep De-adify.ps1 in
-4. Copy Whitelister.lnk to %AppData%\Microsoft\Windows\Start Menu\Programs\
+4. Copy Whitelister.lnk to `%AppData%\Microsoft\Windows\Start Menu\Programs\`
 5. Now you can type "Whitelister" into your start menu, and run the program
 
 As a side note, you may not be able to run powershell programs by default. In this case, 
-you will need to open an elevated (admin) powershell prompt, and type set-executionpolicy
-unrestricted. Then everything should function.
+you will need to open an elevated (admin) powershell prompt, and type 
+
+```
+set-executionpolicy unrestricted
+```
